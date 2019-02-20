@@ -1,0 +1,8 @@
+lvl 0 --> lvl 1
+https://2018shell.picoctf.com/static/d6487f8e2cbbb28b5168b512f0ac0710/flag.zipunzip flag.zip
+unzip flag.zip
+eog flag.jpg
+nano flag.txt => picoCTF{welcome_to_forensics}
+To the input copy paste : picoCTF{welcome_to_forensics}
+Flag ! 
+
