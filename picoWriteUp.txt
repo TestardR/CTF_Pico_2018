@@ -1,4 +1,4 @@
-lvl 0 --> lvl 1
+Forensics Warmup 1
 https://2018shell.picoctf.com/static/d6487f8e2cbbb28b5168b512f0ac0710/flag.zipunzip flag.zip
 unzip flag.zip
 eog flag.jpg
@@ -6,7 +6,7 @@ nano flag.txt => picoCTF{welcome_to_forensics}
 To the input copy paste : picoCTF{welcome_to_forensics}
 Flag ! 
 
-lvl 1 --> lvl 2
+Forensics Warmup 2
 wget "https://2018shell.picoctf.com/static/1e9d081292d7bf0fc19c5dc43fc7bfc2/flag.png"
 file flag.png
 flag.png: JPEG image data, JFIF standard 1.01, resolution (DPI), density 75x75, segment length 16, baseline, precision 8, 909x190, frames 3
@@ -16,4 +16,20 @@ nano flag.txt
 picoCTF{extensions_are_a_lie}
 Flag ! 
 
-lvl 2 --> lvl 3
+General Warmup 1
+If I told you your grade was 0x41 in hexadecimal, what would it be in ASCII? 
+python
+Python 2.7.15+ (default, Aug 31 2018, 11:56:52) 
+[GCC 8.2.0] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 0x41
+65
+In ASCII 65 is A.
+picoCTF{A}
+
+General Warmup 2
+Can you convert the number 27 (base 10) to binary (base 2)? 
+print 'picoCTF{%s}' % bin(27)[2:]
+We want to turn it into binary and then start after the second number so to [2:].
+picoCTF{11011}
+
