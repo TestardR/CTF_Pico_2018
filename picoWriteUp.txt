@@ -33,3 +33,11 @@ print 'picoCTF{%s}' % bin(27)[2:]
 We want to turn it into binary and then start after the second number so to [2:].
 picoCTF{11011}
 
+General Warmup 3 
+What is 0x3D (base 16) in decimal (base 10). 
+print 'picoCTF{%s}' %str(0x3D)
+Python will convert automatically hexadecimal to decimal
+
+
+
+
