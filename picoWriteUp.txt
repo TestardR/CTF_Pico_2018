@@ -39,5 +39,13 @@ print 'picoCTF{%s}' %str(0x3D)
 Python will convert automatically hexadecimal to decimal
 
 
+Resources 
+We put together a bunch of resources to help you out on our website! If you go over there, you might even find a flag! https://picoctf.com/resources
+curl "https://picoctf.com/resources"
+curl -s "https://picoctf.com/resources" | grep -oE "picoCTF{.*}"
+nano get_flag.sh
+chmod +x get_flag.sh
+./get_flag.sh
+picoCTF{xiexie_ni_lai_zheli}cd 
 
 
